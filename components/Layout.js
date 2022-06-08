@@ -1,8 +1,23 @@
+import Head from "next/head"
+import Footer from "./Footer"
+import Navbar from "./Navbar"
 
-
-const Layout = () => {
+const Layout = ({children}) => {
   return (
-    <div>Layout</div>
+    <div className="layout">
+      <Head>
+        <title>One thousand Synths</title>
+      </Head>
+      <header>
+        <Navbar />
+      </header>
+      <main className="main-container">
+        {children}
+      </main>
+      <footer>
+        <Footer />
+      </footer>
+    </div>
   )
 }
 
