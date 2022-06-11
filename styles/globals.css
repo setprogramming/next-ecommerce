@@ -350,8 +350,8 @@ padding: 20px 10px;
 .product .cart-product-image{
   width:180px ;
   height: 150px;
-    border-radius: 15px;
- background-color: #ebebeb;
+  border-radius: 15px;
+  border: 1px solid #dcdcdc;
 }
 .item-desc .flex{
   display: flex;
@@ -388,8 +388,8 @@ padding: 20px 10px;
   position: absolute;
   bottom: 12px;
   right: 5px;
-width: 100%;
-padding: 30px 65px;
+  width: 100%;
+  padding: 30px 65px;
 
 }
 
@@ -700,6 +700,7 @@ margin-top: 160px;
   .product .cart-product-image{
     width: 25%;
     height: 25%;
+    border: 1px solid #dcdcdc;
   }
   .buttons .add-to-cart{
     width: 150px;
